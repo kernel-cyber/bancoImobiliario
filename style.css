@@ -1,0 +1,115 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px; /* Ajuste a margem superior */
+}
+
+.login-register-container {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 200px; /* Reduzido para melhor ajuste */
+}
+
+.form-panel {
+    text-align: center;
+}
+
+.form-section {
+    display: none;
+    margin-top: 10px;
+}
+
+.form-section.active {
+    display: block;
+}
+
+input[type="text"], input[type="password"] {
+    width: 80%; /* Reduza a largura para 80% do tamanho original */
+    padding: 10px; /* Mantenha o padding */
+    margin-bottom: 10px; /* Mantenha a margem inferior */
+    font-size: 16px; /* Mantenha o tamanho da fonte */
+    border: 2px solid #ccc; /* Mantenha a borda */
+    border-radius: 8px; /* Mantenha o raio da borda */
+    text-align: left; /* Mantenha o alinhamento à direita */
+    background-color: #f8f9fa; /* Mantenha a cor de fundo */
+}
+
+
+.button-entrar, .button-registrar {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button-entrar:hover, .button-registrar:hover {
+    background-color: #45a049;
+}
+
+.link {
+    cursor: pointer;
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.button-entrar, .button-registrar, .button-registre-se {
+    width: 80%; /* Reduza o valor da largura para diminuir o tamanho dos botões */
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.button-registre-se {
+    background-color: #4a90e2; /* Cor diferente para destacar */
+}
+
+.button-entrar:hover, .button-registrar:hover, .button-registre-se:hover {
+    background-color: #45a049; /* Cor uniforme ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+.button-registre-se:hover {
+    background-color: #357ab8; /* Cor específica para o botão 'Registre-se' ao passar o mouse */
+}
+
+.link {
+    cursor: pointer;
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}

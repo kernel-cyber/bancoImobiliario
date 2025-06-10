@@ -1,0 +1,550 @@
+[2025-06-08 23:34:54] Requisição recebida: action=, userId=13
+[2025-06-08 23:34:54] Erro: Ação inválida ().
+[2025-06-08 23:34:55] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:34:55] Consultando poupança: userId=13
+[2025-06-08 23:34:55] Nenhuma poupança ativa encontrada: userId=13
+[2025-06-08 23:34:57] Requisição recebida: action=criar, userId=13
+[2025-06-08 23:34:57] Criando poupança: userId=13, valor=5500000
+[2025-06-08 23:34:57] Erro ao criar poupança: Unknown column 'tipo' in 'field list'
+[2025-06-08 23:34:58] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:34:58] Consultando poupança: userId=13
+[2025-06-08 23:34:58] Nenhuma poupança ativa encontrada: userId=13
+[2025-06-08 23:35:01] Requisição recebida: action=criar, userId=13
+[2025-06-08 23:35:01] Criando poupança: userId=13, valor=5500000
+[2025-06-08 23:35:01] Erro ao criar poupança: Unknown column 'tipo' in 'field list'
+[2025-06-08 23:35:29] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:35:29] Consultando poupança: userId=13
+[2025-06-08 23:35:29] Nenhuma poupança ativa encontrada: userId=13
+[2025-06-08 23:35:59] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:35:59] Consultando poupança: userId=13
+[2025-06-08 23:35:59] Nenhuma poupança ativa encontrada: userId=13
+[2025-06-08 23:36:29] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:36:29] Consultando poupança: userId=13
+[2025-06-08 23:36:29] Nenhuma poupança ativa encontrada: userId=13
+[2025-06-08 23:36:59] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:36:59] Consultando poupança: userId=13
+[2025-06-08 23:36:59] Nenhuma poupança ativa encontrada: userId=13
+[2025-06-08 23:37:09] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:37:09] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:37:09] Consultando poupança: userId=13
+[2025-06-08 23:37:09] Nenhuma poupança ativa encontrada: userId=13
+[2025-06-08 23:37:16] Requisição recebida: action=criar, userId=13
+[2025-06-08 23:37:16] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:37:16] Criando poupança: userId=13, valor=5500000
+[2025-06-08 23:37:16] Poupança criada com sucesso: userId=13, valor=5500000
+[2025-06-08 23:37:16] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:37:16] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:37:16] Consultando poupança: userId=13
+[2025-06-08 23:37:16] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:37:20] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:37:20] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:37:20] Consultando poupança: userId=13
+[2025-06-08 23:37:20] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:37:21] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:37:21] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:37:21] Consultando poupança: userId=13
+[2025-06-08 23:37:21] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:37:34] Requisição recebida: action=sacar, userId=13
+[2025-06-08 23:37:34] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:37:34] Sacando poupança: userId=13, poupancaId=3
+[2025-06-08 23:37:52] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:37:52] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:37:52] Consultando poupança: userId=13
+[2025-06-08 23:37:52] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:38:14] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:38:15] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:38:15] Consultando poupança: userId=13
+[2025-06-08 23:38:15] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:38:16] Requisição recebida: action=sacar, userId=13
+[2025-06-08 23:38:16] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:38:16] Sacando poupança: userId=13, poupancaId=3
+[2025-06-08 23:38:45] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:38:45] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:38:45] Consultando poupança: userId=13
+[2025-06-08 23:38:45] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:39:15] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:39:15] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:39:15] Consultando poupança: userId=13
+[2025-06-08 23:39:15] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:39:45] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:39:45] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:39:45] Consultando poupança: userId=13
+[2025-06-08 23:39:45] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:40:15] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:40:15] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:40:15] Consultando poupança: userId=13
+[2025-06-08 23:40:15] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:42:06] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:42:06] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:42:06] Consultando poupança: userId=13
+[2025-06-08 23:42:06] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:42:08] Requisição recebida: action=sacar, userId=13
+[2025-06-08 23:42:08] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:42:08] Sacando poupança: userId=13, poupancaId=3
+[2025-06-08 23:42:19] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:42:19] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:42:19] Consultando poupança: userId=13
+[2025-06-08 23:42:19] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:42:20] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:42:20] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:42:20] Consultando poupança: userId=13
+[2025-06-08 23:42:20] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:42:51] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:42:51] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:42:51] Consultando poupança: userId=13
+[2025-06-08 23:42:51] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:43:21] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:43:21] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:43:21] Consultando poupança: userId=13
+[2025-06-08 23:43:21] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:43:51] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:43:51] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:43:51] Consultando poupança: userId=13
+[2025-06-08 23:43:51] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:43:54] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:43:54] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:43:54] Consultando poupança: userId=13
+[2025-06-08 23:43:54] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:43:55] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:43:55] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:43:55] Consultando poupança: userId=13
+[2025-06-08 23:43:55] Poupança encontrada: userId=13, id=3
+[2025-06-08 23:44:00] Requisição recebida: action=sacar, userId=13
+[2025-06-08 23:44:00] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:44:00] Sacando poupança: userId=13, poupancaId=3
+[2025-06-08 23:44:03] Requisição recebida: action=sacar, userId=13
+[2025-06-08 23:44:03] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:44:03] Sacando poupança: userId=13, poupancaId=3
+[2025-06-08 23:44:13] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:44:14] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:44:14] Consultando poupança: userId=13
+[2025-06-08 23:44:14] Nenhuma poupança ativa encontrada: userId=13
+[2025-06-08 23:44:18] Requisição recebida: action=criar, userId=13
+[2025-06-08 23:44:19] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:44:19] Criando poupança: userId=13, valor=5500000
+[2025-06-08 23:44:19] Poupança criada com sucesso: userId=13, valor=5500000
+[2025-06-08 23:44:19] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:44:19] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:44:19] Consultando poupança: userId=13
+[2025-06-08 23:44:19] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:44:21] Requisição recebida: action=sacar, userId=13
+[2025-06-08 23:44:21] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:44:21] Sacando poupança: userId=13, poupancaId=4
+[2025-06-08 23:44:44] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:44:44] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:44:44] Consultando poupança: userId=13
+[2025-06-08 23:44:44] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:45:13] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:45:14] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:45:14] Consultando poupança: userId=13
+[2025-06-08 23:45:14] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:45:43] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:45:44] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:45:44] Consultando poupança: userId=13
+[2025-06-08 23:45:44] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:46:14] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:46:14] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:46:14] Consultando poupança: userId=13
+[2025-06-08 23:46:14] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:46:43] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:46:44] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:46:44] Consultando poupança: userId=13
+[2025-06-08 23:46:44] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:47:13] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:47:14] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:47:14] Consultando poupança: userId=13
+[2025-06-08 23:47:14] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:47:44] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:47:44] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:47:44] Consultando poupança: userId=13
+[2025-06-08 23:47:44] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:48:14] Requisição recebida: action=consultar, userId=13
+[2025-06-08 23:48:14] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:48:14] Consultando poupança: userId=13
+[2025-06-08 23:48:14] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:48:50] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-08 23:48:50] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:48:50] Consultando poupança: userId=13
+[2025-06-08 23:48:50] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:48:51] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-08 23:48:51] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:48:51] Consultando poupança: userId=13
+[2025-06-08 23:48:51] Poupança encontrada: userId=13, id=4
+[2025-06-08 23:49:02] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"4"}
+[2025-06-08 23:49:02] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:49:02] Sacando poupança: userId=13, poupancaId=4
+[2025-06-08 23:49:32] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-08 23:49:32] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-08 23:49:32] Consultando poupança: userId=13
+[2025-06-08 23:49:32] Poupança encontrada: userId=13, id=4
+[2025-06-10 02:05:33] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:05:33] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:05:33] Consultando poupança: userId=13
+[2025-06-10 02:05:33] Poupança encontrada: userId=13, id=4
+[2025-06-10 02:12:09] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:12:09] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:12:09] Consultando poupança: userId=13
+[2025-06-10 02:12:09] Nenhuma poupança ativa encontrada: userId=13
+[2025-06-10 02:12:15] Requisição recebida: action=criar, userId=13, POST={"action":"criar","valor":"5500000"}
+[2025-06-10 02:12:15] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:12:15] Criando poupança: userId=13, valor=5500000
+[2025-06-10 02:12:15] Poupança criada com sucesso: userId=13, valor=5500000
+[2025-06-10 02:12:15] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:12:15] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:12:15] Consultando poupança: userId=13
+[2025-06-10 02:12:15] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:12:33] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:12:33] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:12:33] Consultando poupança: userId=13
+[2025-06-10 02:12:33] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:12:34] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:12:34] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:12:34] Consultando poupança: userId=13
+[2025-06-10 02:12:34] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:13:04] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:13:04] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:13:04] Consultando poupança: userId=10
+[2025-06-10 02:13:04] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:13:08] Requisição recebida: action=criar, userId=10, POST={"action":"criar","valor":"10000000"}
+[2025-06-10 02:13:08] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:13:08] Criando poupança: userId=10, valor=10000000
+[2025-06-10 02:13:08] Poupança criada com sucesso: userId=10, valor=10000000
+[2025-06-10 02:13:08] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:13:08] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:13:08] Consultando poupança: userId=10
+[2025-06-10 02:13:08] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:13:50] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:13:50] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:13:50] Consultando poupança: userId=13
+[2025-06-10 02:13:50] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:14:04] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:14:04] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:14:04] Consultando poupança: userId=10
+[2025-06-10 02:14:04] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:14:09] Requisição recebida: action=sacar, userId=10, POST={"action":"sacar","poupanca_id":"6"}
+[2025-06-10 02:14:09] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:14:09] Sacando poupança: userId=10, poupancaId=6
+[2025-06-10 02:14:15] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:14:15] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:14:15] Consultando poupança: userId=10
+[2025-06-10 02:14:15] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:14:21] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:14:21] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:14:21] Consultando poupança: userId=13
+[2025-06-10 02:14:21] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:14:46] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:14:46] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:14:46] Consultando poupança: userId=10
+[2025-06-10 02:14:46] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:14:51] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:14:51] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:14:51] Consultando poupança: userId=13
+[2025-06-10 02:14:51] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:15:16] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:15:16] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:15:16] Consultando poupança: userId=10
+[2025-06-10 02:15:16] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:15:21] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:15:21] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:15:21] Consultando poupança: userId=13
+[2025-06-10 02:15:21] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:15:46] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:15:46] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:15:46] Consultando poupança: userId=10
+[2025-06-10 02:15:46] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:15:51] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:15:51] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:15:51] Consultando poupança: userId=13
+[2025-06-10 02:15:51] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:16:16] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:16:16] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:16:16] Consultando poupança: userId=10
+[2025-06-10 02:16:16] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:16:21] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:16:21] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:16:21] Consultando poupança: userId=13
+[2025-06-10 02:16:21] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:16:46] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:16:46] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:16:46] Consultando poupança: userId=10
+[2025-06-10 02:16:46] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:16:51] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:16:51] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:16:51] Consultando poupança: userId=13
+[2025-06-10 02:16:51] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:17:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:17:17] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:17:17] Consultando poupança: userId=10
+[2025-06-10 02:17:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:18:08] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:18:08] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:18:08] Consultando poupança: userId=13
+[2025-06-10 02:18:08] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:18:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:18:17] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:18:17] Consultando poupança: userId=10
+[2025-06-10 02:18:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:18:24] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:18:24] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:18:24] Consultando poupança: userId=13
+[2025-06-10 02:18:24] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:18:29] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:18:29] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:18:29] Consultando poupança: userId=13
+[2025-06-10 02:18:29] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:19:04] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:19:04] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:19:04] Consultando poupança: userId=13
+[2025-06-10 02:19:04] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:19:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:19:17] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:19:17] Consultando poupança: userId=10
+[2025-06-10 02:19:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:19:35] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:19:35] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:19:35] Consultando poupança: userId=13
+[2025-06-10 02:19:35] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:20:05] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:20:05] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:20:05] Consultando poupança: userId=13
+[2025-06-10 02:20:05] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:20:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:20:17] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:20:17] Consultando poupança: userId=10
+[2025-06-10 02:20:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:20:35] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:20:35] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:20:35] Consultando poupança: userId=13
+[2025-06-10 02:20:35] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:20:46] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:20:46] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:20:46] Consultando poupança: userId=10
+[2025-06-10 02:20:46] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:21:05] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:21:05] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:21:05] Consultando poupança: userId=13
+[2025-06-10 02:21:05] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:21:16] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:21:16] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:21:16] Consultando poupança: userId=10
+[2025-06-10 02:21:16] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:21:35] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:21:35] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:21:35] Consultando poupança: userId=13
+[2025-06-10 02:21:35] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:22:05] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:22:05] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:22:05] Consultando poupança: userId=13
+[2025-06-10 02:22:05] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:22:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:22:17] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:22:17] Consultando poupança: userId=10
+[2025-06-10 02:22:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:22:49] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:22:49] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:22:49] Consultando poupança: userId=13
+[2025-06-10 02:22:49] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:22:59] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:22:59] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:22:59] Consultando poupança: userId=13
+[2025-06-10 02:22:59] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:23:01] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:23:01] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:23:01] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:23:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:23:17] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:23:17] Consultando poupança: userId=10
+[2025-06-10 02:23:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:23:46] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:23:46] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:23:46] Consultando poupança: userId=10
+[2025-06-10 02:23:46] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:24:14] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:24:14] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:14] Consultando poupança: userId=13
+[2025-06-10 02:24:14] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:24:16] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:24:16] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:16] Consultando poupança: userId=10
+[2025-06-10 02:24:16] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:24:17] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:24:17] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:17] Consultando poupança: userId=13
+[2025-06-10 02:24:17] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:24:22] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:24:22] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:22] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:24:22] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:24:22] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:22] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:24:23] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:24:23] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:23] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:24:23] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:24:23] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:23] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:24:23] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:24:23] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:23] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:24:23] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:24:23] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:23] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:24:24] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:24:24] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:24] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:24:24] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:24:24] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:24] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:24:24] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:24:24] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:24] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:24:43] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:24:43] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:43] Consultando poupança: userId=13
+[2025-06-10 02:24:43] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:24:44] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:24:44] Colunas da tabela notifications: id, user_id, message, created_at, read, type
+[2025-06-10 02:24:44] Consultando poupança: userId=13
+[2025-06-10 02:24:44] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:25:11] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:25:11] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:25:12] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:25:12] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:25:13] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:25:13] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:25:13] Erro ao sacar poupança: Unknown column 'data_saque' in 'field list'
+[2025-06-10 02:25:16] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:25:16] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:25:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:25:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:25:17] Requisição recebida: action=sacar, userId=13, POST={"action":"sacar","poupanca_id":"5"}
+[2025-06-10 02:25:17] Sacando poupança: userId=13, poupancaId=5
+[2025-06-10 02:25:17] Erro ao sacar poupança: Unknown column 'data_saque' in 'field list'
+[2025-06-10 02:25:23] Requisição recebida: action=consultar, userId=13, POST={"action":"consultar"}
+[2025-06-10 02:25:23] Poupança encontrada: userId=13, id=5
+[2025-06-10 02:26:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:26:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:27:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:27:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:28:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:28:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:29:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:29:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:30:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:30:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:31:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:31:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:31:46] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:31:46] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:32:16] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:32:16] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:33:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:33:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:34:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:34:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:35:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:35:17] Poupança encontrada: userId=10, id=6
+[2025-06-10 02:36:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:36:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:37:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:37:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:37:49] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:37:49] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:38:16] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:38:16] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:38:46] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:38:46] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:39:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:39:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:40:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:40:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:41:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:41:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:41:46] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:41:46] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:42:16] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:42:16] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:43:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:43:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:44:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:44:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:45:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:45:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:46:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:46:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:47:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:47:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:48:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:48:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:49:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:49:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:50:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:50:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:51:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:51:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:52:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:52:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:53:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:53:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:54:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:54:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:55:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:55:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:56:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:56:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:57:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:57:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:58:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:58:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 02:59:17] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 02:59:17] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:00:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:00:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:01:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:01:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:02:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:02:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:03:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:03:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:04:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:04:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:05:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:05:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:06:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:06:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:07:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:07:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:08:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:08:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:09:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:09:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:10:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:10:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:11:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:11:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:12:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:12:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:13:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:13:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:14:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:14:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:15:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:15:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:16:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:16:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:17:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:17:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:18:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:18:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:19:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:19:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:20:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:20:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:21:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:21:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:22:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:22:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:23:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:23:18] Nenhuma poupança ativa encontrada: userId=10
+[2025-06-10 03:24:18] Requisição recebida: action=consultar, userId=10, POST={"action":"consultar"}
+[2025-06-10 03:24:18] Nenhuma poupança ativa encontrada: userId=10

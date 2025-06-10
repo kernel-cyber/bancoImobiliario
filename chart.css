@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Evita que o conteúdo exceda o contêiner */
+}
+
+canvas {
+    width: 100%; /* Definir a largura do canvas como 100% */
+    height: auto; /* Definir a altura do canvas como automática para manter a proporção */
+    max-width: 100%; /* Garantir que o canvas não exceda a largura do contêiner */
+    max-height: 100%; /* Garantir que o canvas não exceda a altura do contêiner */
+}
+
+/* Aplicar rotação apenas em dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    .container {
+        transform: rotate(-90deg); /* Rotacionar o contêiner em -90 graus */
+        transform-origin: top left; /* Garantir que a rotação ocorra a partir do canto superior esquerdo */
+        width: 100vh; /* Definir a largura do contêiner como a altura da viewport */
+        height: 100vh; /* Definir a altura do contêiner como a altura da viewport */
+    }
+}
+/* Adicione estilos para o botão de retorno */
+.back-button {
+     background-color: #ffa500;
+    color: white;
+}
+
+.btn-back {
+    background-color: #ffa500;
+    color: white;
+}

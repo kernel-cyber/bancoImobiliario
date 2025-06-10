@@ -1,0 +1,197 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34; /* Cor de fundo escura para tema de jogo */
+    color: white; /* Texto branco para contraste */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px; /* Ajuste na largura máxima */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Sombra mais proeminente */
+    text-align: center;
+    color: #333; /* Cor de texto para legibilidade */
+}
+
+input[type="text"], select {
+    width: 90%;
+    padding: 12px; /* Aumento do padding para melhor tato */
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 2px solid #ccc; /* Bordas mais definidas */
+    border-radius: 10px; /* Bordas mais arredondadas */
+    text-align: right;
+    background-color: #f8f9fa; /* Fundo mais claro para os campos */
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.teclado button {
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #ddd; /* Bordas mais definidas */
+    border-radius: 10px; /* Bordas mais arredondadas */
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.teclado .btn-m {
+    background-image: linear-gradient(145deg, #ffd700, #c6a700); /* Gradiente ajustado */
+    color: white; /* Cor do texto para garantir contraste */
+}
+
+.teclado .btn-k {
+    background-image: linear-gradient(145deg, #3399ff, #0022d2); /* Gradiente ajustado */
+    color: white; /* Cor do texto para garantir contraste */
+}
+
+.teclado .btn-arrow,
+button[type="submit"] {
+    background-image: linear-gradient(145deg, #66cc66, #009933); /* Gradiente ajustado */
+    color: white; /* Cor do texto para garantir contraste */
+}
+
+.teclado .btn-pagar {
+    background-image: linear-gradient(145deg, #33cc33, #009933); /* Gradiente ajustado */
+    color: white; /* Cor do texto para garantir contraste */
+}
+
+.teclado .btn-clear {
+    background-image: linear-gradient(145deg, #ff6666, #ff0000); /* Gradiente ajustado */
+    color: white; /* Cor do texto para garantir contraste */
+}
+
+.teclado .btn-back {
+    background-image: linear-gradient(145deg, #ffcc66, #ffa500); /* Gradiente ajustado */
+    color: white; /* Cor do texto para garantir contraste */
+}
+
+.teclado .btn-extrato {
+    background-image: linear-gradient(145deg, #999999, #000000); /* Gradiente ajustado */
+    color: white; /* Cor do texto para garantir contraste */
+}
+
+.teclado button:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Sombra para efeito de foco */
+}
+
+
+.alert {
+    color: #dc3545;
+    margin-bottom: 15px;
+    border: 1px solid #dc3545; /* Adiciona borda para alerta */
+    padding: 10px; /* Mais visibilidade para o alerta */
+    border-radius: 5px; /* Bordas arredondadas para o alerta */
+}
+
+.notificacao {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-row button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente os elementos */
+    gap: 10px; /* Espaço ainda menor entre os elementos */
+    font-size: 1rem; /* Tamanho ainda menor da fonte */
+    padding: 5px 0; /* Padding reduzido para uma visualização mais compacta */
+}
+
+#containerSaldo {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espaço reduzido entre o saldo e o ícone de visibilidade */
+}
+
+.nickname {
+    display: flex;
+    align-items: center;
+    position: relative; /* Posição relativa para a pseudo-elemento */
+    padding-right: 10px; /* Espaço antes da divisória ajustado */
+    font-size: 1.4rem;
+}
+
+.nickname::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 14px; /* Altura ainda menor da linha divisória */
+    width: 1px; /* Largura mais fina da linha divisória mantida */
+    background-color: #ccc; /* Cor da divisória ajustada */
+}
+
+.saldo, #saldoAtual {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /* Mantém no mesmo espaço se possível */
+    font-size: 1.4rem; /* Reduzindo o tamanho da fonte do saldo também */
+}
+
+
+hr {
+    height: 1px; /* Define a altura da linha */
+    border: none; /* Remove qualquer borda padrão */
+    background-color: #E5E4E2; /* Define a cor da linha */
+    margin: 10px 0; /* Adiciona margem acima e abaixo para separar o conteúdo */
+}
+#toggleVisibility {
+    font-size: 24\px; /* Reduz o tamanho do ícone */
+    cursor: pointer; /* Mantém o cursor como ponteiro para indicar que é clicável */
+    color: #333; /* Altera a cor, se necessário */
+}
+
+.icon-spacing {
+    margin-right: 8px; /* Ajuste este valor conforme necessário */
+	
+}
+
+.icon-gradient {
+    margin-right: 8px; /* Ajuste este valor conforme necessário */
+    background: linear-gradient(45deg, #FF5733, #FFC300); /* Ajuste as cores do gradiente conforme necessário */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.icon-gradient2 {
+    margin-right: 8px; /* Ajuste este valor conforme necessário */
+    background: linear-gradient(45deg, #66ff66, #009933); /* Ajuste as cores do gradiente conforme necessário */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

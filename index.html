@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login - Banco Imobiliário</title>
+</head>
+<body>
+    <div class="login-register-container">
+        <div class="logo-container">
+            <img src="imagens/logo.png" alt="Logo do Jogo Estelar" class="logo">
+        </div>
+        <div class="form-panel">
+            <div id="login-form" class="form-section active">
+                <h2>Entrar</h2>
+                <form action="login.php" method="post">
+                    <input type="text" id="nickname" name="nickname" placeholder="Nickname" required>
+                    <input type="password" id="password" name="password" placeholder="Senha" required>
+                    <button type="submit" class="button-entrar">Entrar</button>
+                </form>
+                <p>Não tem uma conta? <button class="button-registre-se" onclick="showForm('register')">Registre-se</button></p>
+            </div>
+            <div id="register-form" class="form-section">
+                <h2>Registre-se!</h2>
+                <form action="register.php" method="post">
+                    <input type="text" id="new_nickname" name="new_nickname" placeholder="Nickname" required>
+                    <input type="password" id="new_password" name="new_password" placeholder="Senha" required>
+                    <button type="submit" class="button-registrar">Registrar</button>
+                </form>
+                <p>Já tem uma conta? <button class="button-registre-se" onclick="showForm('login')">Entrar</button></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showForm(form) {
+            const loginForm = document.getElementById('login-form');
+            const registerForm = document.getElementById('register-form');
+            loginForm.style.display = form === 'login' ? 'block' : 'none';
+            registerForm.style.display = form === 'register' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>

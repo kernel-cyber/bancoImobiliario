@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34; /* Fundo mais escuro para estilo de jogo */
+    color: #fff; /* Texto branco para contraste */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #20232a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra para dar profundidade */
+}
+
+.logo {
+    height: 50px;
+}
+
+.saldo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 2em; /* Tamanho maior para o título */
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn {
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 12px; /* Remove as margens dos botões */
+    width: 110px; /* Largura fixa para os botões, considerando o espaço entre as colunas */
+    height: 110px; /* Altura fixa para os botões */
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo em uma coluna */
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px; /* Remove as bordas arredondadas */
+    font-size: 18px; /* Fonte maior */
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.5); /* Sombra no texto para destacar */
+    box-shadow: 2 4px 10px rgba(0,0,0,0.2); /* Sombra no botão */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+.btn:nth-child(odd) {
+    margin-right: 10px; /* Espaçamento entre colunas, mas só para os botões ímpares */
+}
+
+.btn:nth-child(even) {
+    margin-left: 10px; /* Remove a margem à esquerda para os botões pares */
+}
+
+.btn i {
+    font-size: 36px; /* Tamanho maior para o ícone */
+    margin-bottom: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.btn:hover {
+    transform: translateY(-3px); /* Levanta o botão quando passa o mouse */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Sombra maior para efeito de foco */
+}
+
+.saldo {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex; /* Utiliza flexbox para alinhar os elementos em linha */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+.saldo i, .saldo span {
+    display: flex;
+    align-items: center;
+    margin-right: 5px; /* Espaço entre ícones e texto */
+}
+
+/* Adicionando margem após o saldo para separar do nome do usuário */
+#saldo {
+    margin-right: 15px; /* Ajuste a margem conforme necessário */
+}
+
+/* Ajuste de cores para ícones */
+.fa-coins {
+    color: green;
+}
+
+.fa-money-check-dollar {
+    color: green;
+}
+
+.fa-user {
+    color: transparent;
+    background: linear-gradient(#ff0000, #aa0000); /* Gradiente do cinza para cinza escuro */
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-right: 5px;
+}
+
+#toggleVisibility {
+    font-size: 24px; /* Reduz o tamanho do ícone */
+    cursor: pointer; /* Mantém o cursor como ponteiro para indicar que é clicável */
+    color: #333; /* Altera a cor, se necessário */
+}
+
+.icon-gradient {
+    margin-right: 8px; /* Ajuste este valor conforme necessário */
+    background: linear-gradient(45deg, #FF5733, #FFC300); /* Ajuste as cores do gradiente conforme necessário */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.btn.objetivo {
+    background-color: #007BFF;
+    background-image: linear-gradient(145deg, #009fff, #0051ff); /* Gradiente conforme necessário */
+    color: white; /* Ajuste a cor do texto conforme necessário */
+    border: none; /* Remove a borda do botão, se necessário */
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
+}
+
+.btn.jogar {
+    background-color: #28a745;
+    background-image: linear-gradient(145deg, #66cc66, #009933); /* Gradiente ajustado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn.extrato {
+    background-color: #ffc107;
+    background-image: linear-gradient(145deg, #ffd527, #ffb800); /* Gradiente conforme necessário */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn.resetar {
+    background-color: #800080;
+    background-image: linear-gradient(145deg, #999999, #000000); /* Gradiente ajustado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn.encerrar {
+    background-image: linear-gradient(145deg, #ff3030, #c70000); /* Gradiente conforme necessário */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn.leilao {
+     background-image: linear-gradient(145deg, #ffcc66, #ffa500); /* Gradiente ajustado */
+    color: white; /* Ajuste a cor do texto conforme necessário */
+    border: none; /* Remove a borda do botão, se necessário */
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
+}
+
